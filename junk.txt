@@ -1,0 +1,14 @@
+In file included from ./include/common.h:63:
+./arch/arm/include/asm/global_data.h:80:10: fatal error: asm-generic/global_data.h: No such file or directory
+   80 | #include <asm-generic/global_data.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [scripts/Makefile.autoconf:79: u-boot.cfg] Error 1
+make: *** No rule to make target 'include/config/auto.conf', needed by 'include/config/uboot.release'.  Stop.
+In file included from ./include/common.h:63:
+./arch/arm/include/asm/global_data.h:80:10: fatal error: asm-generic/global_data.h: No such file or directory
+   80 | #include <asm-generic/global_data.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [scripts/Makefile.autoconf:79: u-boot.cfg] Error 1
+make: *** No rule to make target 'include/config/auto.conf', needed by 'include/config/uboot.release'.  Stop.
